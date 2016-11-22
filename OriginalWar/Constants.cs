@@ -1,0 +1,93 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OriginalWar
+{
+    public enum Material : int
+    {
+        mat_none = 0,
+        mat_cans = 1,
+        mat_oil = 2,
+        mat_siberit = 3,
+        mat_artefact = 4,
+        mat_multi = 5,
+    }
+
+    public enum Technology : int
+    {
+        tech_SolPow = 35,
+        tech_SolEng = 45,
+        tech_OilPow = 46,
+        tech_OilEng = 47,
+        tech_ApeLang = 1,
+        tech_ApePsych = 2,
+        tech_ApeAgres = 11,
+        tech_ApeNeural = 3,
+        tech_ApeBrain = 4,
+        tech_StimDrugs = 5,
+        tech_Radar = 6,
+        tech_MatDet = 7,
+        tech_BioDet = 8,
+        tech_MatPred = 9,
+        tech_LasSight = 12,
+        tech_Soporific = 13,
+        tech_Laser = 10,
+        tech_LasDouble = 14,
+        tech_RemCont = 15,
+        tech_RemCharge = 18,
+        tech_PartInvis = 16,
+        tech_HidCam = 17,
+        tech_SibDet = 20,
+        tech_SibLoc = 19,
+        tech_SibPow = 21,
+        tech_SibEng = 22,
+        tech_Behemoth = 23,
+        tech_Artifact = 24,
+        tech_SibFiss = 25,
+        tech_SibContam = 26,
+        tech_TauRad = 28,
+        tech_SpacAnom = 29,
+        tech_TauField = 30,
+        tech_Lapser = 31,
+        tech_LimTeleport = 37,
+        tech_TargTeleport = 38,
+        tech_AI = 32,
+        tech_AdvAI = 27,
+        tech_Virus = 33,
+        tech_AdvChassis = 36,
+        tech_Flame = 70,
+        tech_Gatling = 69,
+        tech_Gun = 39,
+        tech_AdvMet = 34,
+        tech_Rocket = 40,
+        tech_AdvRocket = 71,
+        tech_Mortar = 41,
+        tech_Explos = 42,
+        tech_SelfDest = 43,
+        tech_Bazooka = 44,
+        tech_Tech1 = 48,
+        tech_Tech2 = 49,
+        tech_Tech3 = 50,
+        tech_Weap1 = 51,
+        tech_Weap2 = 52,
+        tech_Weap3 = 53,
+        tech_Sib1 = 54,
+        tech_Sib2 = 55,
+        tech_Sib3 = 56,
+        tech_Comp1 = 57,
+        tech_Comp2 = 58,
+        tech_Comp3 = 59,
+        tech_Opto1 = 60,
+        tech_Opto2 = 61,
+        tech_Opto3 = 62,
+        tech_ST1 = 63,
+        tech_ST2 = 64,
+        tech_ST3 = 65,
+        tech_Bio1 = 66,
+        tech_Bio2 = 67,
+        tech_Bio3 = 68
+    }
+}
